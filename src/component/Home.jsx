@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { experimentalStyled as styled } from "@mui/material/styles";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import { Grid, Typography } from "@mui/material";
+import { Grid, Paper, Box } from "@mui/material";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
